@@ -186,18 +186,7 @@ The following external assets are used in the project:
   Source: Sketchfab
   License: CC BY 4.0
 
-## Running the Project
 
-Add your actual build and run instructions here after confirming your project setup.
-
-Example format:
-
-```bash
-# Build the project
-<your-build-command>
-
-# Run the application
-<your-run-command>
 ```
 
 ## Repository
