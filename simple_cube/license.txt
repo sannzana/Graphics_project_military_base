@@ -1,0 +1,11 @@
+Model Information:
+* title:	Simple Cube
+* source:	https://sketchfab.com/3d-models/simple-cube-7dcdc30ae97544fb8ffd3d6c36a83eb1
+* author:	samuelcrevier (https://sketchfab.com/samuelcrevier12)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Simple Cube" (https://sketchfab.com/3d-models/simple-cube-7dcdc30ae97544fb8ffd3d6c36a83eb1) by samuelcrevier (https://sketchfab.com/samuelcrevier12) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

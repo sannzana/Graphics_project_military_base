@@ -1,0 +1,11 @@
+Model Information:
+* title:	Radar Mesta 210d
+* source:	https://sketchfab.com/3d-models/radar-mesta-210d-85f9b77fdcef49e38c9b2d3eb6799924
+* author:	dsimplex62 (https://sketchfab.com/dsimplex62)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Radar Mesta 210d" (https://sketchfab.com/3d-models/radar-mesta-210d-85f9b77fdcef49e38c9b2d3eb6799924) by dsimplex62 (https://sketchfab.com/dsimplex62) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

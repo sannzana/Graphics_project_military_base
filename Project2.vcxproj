@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{0e8f1e45-5305-489a-93fb-652f25fbd48b}</ProjectGuid>
+    <RootNamespace>Project2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>opengl\include;$(IncludePath)</IncludePath>
+    <LibraryPath>opengl\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\4.2\GLM 0.9.9.8\g-truc-glm-bf71a83;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>assimp-vc143-mt.lib;glfw3.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Barrack.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="opengl\glad.c" />
+    <ClCompile Include="stb_image.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Barrack.h" />
+    <ClInclude Include="basic_camera.h" />
+    <ClInclude Include="boundary.h" />
+    <ClInclude Include="build.h" />
+    <ClInclude Include="Bush.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="Campfire.h" />
+    <ClInclude Include="cube.h" />
+    <ClInclude Include="cylinder.h" />
+    <ClInclude Include="directionLight.h" />
+    <ClInclude Include="furniture.h" />
+    <ClInclude Include="Garageplatform.h" />
+    <ClInclude Include="JeepCar.h" />
+    <ClInclude Include="jeep_manager.h" />
+    <ClInclude Include="jeep_new.h" />
+    <ClInclude Include="jeep_state.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="MilitaryGaragePlatform.h" />
+    <ClInclude Include="MilitaryPlatform.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="PerimeterWalls.h" />
+    <ClInclude Include="pointLight.h" />
+    <ClInclude Include="RadarOffice.h" />
+    <ClInclude Include="RadarStation.h" />
+    <ClInclude Include="road.h" />
+    <ClInclude Include="shader.h" />
+    <ClInclude Include="sphere.h" />
+    <ClInclude Include="Sphere2.h" />
+    <ClInclude Include="sphereWithTexture.h" />
+    <ClInclude Include="spotLight.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="truck.h" />
+    <ClInclude Include="TubeLight.h" />
+    <ClInclude Include="WatchTower.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="1.model_loading.fs" />
+    <None Include="1.model_loading.vs" />
+    <None Include="BOUNDARY_INTEGRATION_GUIDE.md" />
+    <None Include="CAMPFIRE_ROTATION_MECHANISM.md" />
+    <None Include="COLLISION_DETECTION_COMPLETE_GUIDE.md" />
+    <None Include="COLLISION_FIXES_ROAD_AND_JEEP_TRUCK.md" />
+    <None Include="COLLISION_QUICK_REFERENCE.md" />
+    <None Include="COLLISION_SYSTEM_COMPLETE.md" />
+    <None Include="COMPLETE_BUTTON_CONTROLS_GUIDE.md" />
+    <None Include="COMPLETE_ROOT_CAUSE_AND_SOLUTION.md" />
+    <None Include="COMPLETION_CHECKLIST.md" />
+    <None Include="DETAILED_COLLISION_EXPLANATION.md" />
+    <None Include="ENHANCED_WHEEL_DESIGN.md" />
+    <None Include="EXACT_CODE_CHANGES_BEFORE_AFTER.md" />
+    <None Include="EXACT_FIRE_ROTATION_CODE_LOCATION.md" />
+    <None Include="FINAL_COLLISION_SUMMARY.md" />
+    <None Include="FIRE_ANGLE_CALCULATION_EXPLAINED.md" />
+    <None Include="FIRE_ANIMATION_DELTA_TIME_ANALYSIS.md" />
+    <None Include="FIRE_LAYER_SPEEDS_COMPLETE.md" />
+    <None Include="fragmentShader.fs" />
+    <None Include="fragmentShaderForGouraudShading.fs" />
+    <None Include="fragmentShaderForPhongShading.fs" />
+    <None Include="fragmentShaderForPhongShadingWithTexture.fs" />
+    <None Include="HEADLIGHT_DEBUG_GUIDE.md" />
+    <None Include="IMPLEMENTATION_SUMMARY.md" />
+    <None Include="JEEP_COLLISION_MAINTENANCE_FINAL.md" />
+    <None Include="JEEP_CONTROL_IMPLEMENTATION.md" />
+    <None Include="JEEP_CONTROL_SYSTEM.md" />
+    <None Include="JEEP_EXIT_COLLISION_FIX.md" />
+    <None Include="JEEP_FEATURES_COMPLETE.md" />
+    <None Include="JEEP_FINAL_IMPLEMENTATION.md" />
+    <None Include="JEEP_FIX_QUICK_GUIDE_FINAL.md" />
+    <None Include="JEEP_FIX_QUICK_REFERENCE.md" />
+    <None Include="JEEP_GARAGE_COMPLETE_SOLUTION.md" />
+    <None Include="JEEP_GARAGE_EXIT_PROBLEM_DIAGNOSIS.md" />
+    <None Include="JEEP_GARAGE_FINAL_FIX_COMPLETE.md" />
+    <None Include="JEEP_GARAGE_FIX_IMPLEMENTATION.md" />
+    <None Include="JEEP_HEADLIGHT_QUICK_GUIDE.md" />
+    <None Include="JEEP_HEADLIGHT_SHORT_DESC.md" />
+    <None Include="JEEP_HEADLIGHT_SPOTLIGHTS.md" />
+    <None Include="JEEP_QUICK_START.md" />
+    <None Include="JEEP_RENDER_MODE_ANSWER.md" />
+    <None Include="LIGHTING_SYSTEM_DOCUMENTATION.md" />
+    <None Include="OBJECTS_PRIMITIVES_WRAPPING_TEXTURES.md" />
+    <None Include="PRESENTATION_SLIDES_DETAILED_LIGHTING.md" />
+    <None Include="PRESENTATION_SLIDES_SUMMARY.md" />
+    <None Include="PRIMITIVES_AND_STRUCTURE_DOCUMENTATION.md" />
+    <None Include="QUICK_FIX_SUMMARY.md" />
+    <None Include="README_JEEP_SYSTEM.md" />
+    <None Include="STRUCTURE_COMPONENTS.md" />
+    <None Include="TRUCK_VS_JEEP_COLLISION_COMPARISON.md" />
+    <None Include="vertexShader.vs" />
+    <None Include="vertexShaderForGouraudShading.vs" />
+    <None Include="vertexShaderForPhongShading.vs" />
+    <None Include="vertexShaderForPhongShadingWithTexture.vs" />
+    <None Include="VISUAL_SUMMARY.md" />
+    <None Include="WHEEL_COLOR_DIAGNOSIS.md" />
+    <None Include="WHEEL_ENHANCEMENT_SUMMARY.md" />
+    <None Include="WHEEL_VISUAL_GUIDE.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\Hp\Downloads\millitary (1)\Bidyut\jeep.png" />
+    <Image Include="C:\Users\Hp\Downloads\millitary (1)\Bidyut\pebble.png" />
+    <Image Include="TreeLeaf.png" />
+    <Image Include="Treeroot.png" />
+    <Image Include="wheel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="JEEP_INTEGRATION_GUIDE.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

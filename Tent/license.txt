@@ -1,0 +1,11 @@
+Model Information:
+* title:	Military Tent / Військовий Намет
+* source:	https://sketchfab.com/3d-models/military-tent-d0d6d9a9f5ab4939932dd27bbaa5ca7d
+* author:	Lvilka (https://sketchfab.com/Lvilka)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Military Tent / Військовий Намет" (https://sketchfab.com/3d-models/military-tent-d0d6d9a9f5ab4939932dd27bbaa5ca7d) by Lvilka (https://sketchfab.com/Lvilka) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
