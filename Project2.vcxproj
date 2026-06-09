@@ -224,6 +224,7 @@
     <None Include="QUICK_FIX_SUMMARY.md" />
     <None Include="README_JEEP_SYSTEM.md" />
     <None Include="STRUCTURE_COMPONENTS.md" />
+    <None Include="SYSTEMS_EXPLANATION.md" />
     <None Include="TRUCK_VS_JEEP_COLLISION_COMPARISON.md" />
     <None Include="vertexShader.vs" />
     <None Include="vertexShaderForGouraudShading.vs" />

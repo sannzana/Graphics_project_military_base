@@ -195,6 +195,8 @@
     <None Include="QUICK_FIX_SUMMARY.md" />
     <None Include="DETAILED_COLLISION_EXPLANATION.md" />
     <None Include="FINAL_COLLISION_SUMMARY.md" />
+    <None Include="JEEP_RENDER_MODE_ANSWER.md" />
+    <None Include="SYSTEMS_EXPLANATION.md" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Treeroot.png">
