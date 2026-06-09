@@ -187,7 +187,6 @@ The following external assets are used in the project:
   License: CC BY 4.0
 
 
-```
 
 ## Repository
 
