@@ -312,6 +312,11 @@ The following external assets are used in the project:
   Source: Sketchfab
   License: CC BY 4.0
 
+## Project Demo Video
+
+A demonstration video of the interactive 3D military base camp is available below:
+
+[Watch the Project Demo Video on Google Drive](https://drive.google.com/drive/folders/1azzqziOwQQgxTCLuUkf7XGMTd7Ll0hzo?usp=sharing)
 
 
 ## Repository
