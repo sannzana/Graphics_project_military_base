@@ -189,7 +189,63 @@ Textures are applied across the scene to improve the appearance of surfaces such
 * Radar dish
 
 The project also supports changing selected rendering modes during runtime.
+## Project Figures
 
+### Barracks and Campfire
+![Two barracks and campfire](asset/b.png)
+*Figure 1: Two barracks with the animated campfire placed between them.*
+
+![Inside barrack with double bed](asset/b22.png)
+*Figure 2: Interior view of the barrack showing a double bed.*
+
+### Garages
+![Back of garages](asset/back.png)
+*Figure 3: Rear view of the garages with lighting and open spaces.*
+
+![Front view of garage](asset/f.png)
+*Figure 4: Front view of the garage platforms.*
+
+### Military Base
+![Bird's-eye view](asset/bird.png)
+*Figure 5: Bird's-eye view showing the layout of the entire military base.*
+
+### Medical Center
+![Medical building exterior](asset/build.png)
+*Figure 6: Exterior view of the military medical center.*
+
+![Medical building interior](asset/in.png)
+*Figure 7: Interior of the medical center showing beds and tables.*
+
+### Main Gate
+![Front main gate](asset/dd.png)
+*Figure 8: Front view of the main entrance gate of the military base.*
+
+### Vehicles
+![Jeep with open door](asset/jeep.png)
+*Figure 9: Military jeep with doors open and interior visible.*
+
+![Jeep spotlight](asset/spot.png)
+*Figure 10: Jeep with headlights on, showing spotlight effect.*
+
+![Tank](asset/t.png)
+*Figure 11: Model-based military tank placed on the central road.*
+
+![Truck](asset/truck.png)
+*Figure 12: Six-wheel military truck with covered cargo area.*
+
+### Watch Tower and Tent
+![Watch tower](asset/wt.png)
+*Figure 13: Elevated military watch tower with stairs and platform.*
+
+![Tent](asset/tt.png)
+*Figure 14: Model-based military tent inside the base camp.*
+
+### Optional / Extra Views
+![Back of jeep](asset/bj.png)
+*Figure 15: Rear view of the jeep.*
+
+![Garage slope](asset/bs.png)
+*Figure 16: Slope/ramp view of the garage platforms.*
 ## External 3D Models
 
 The following external assets are used in the project:
