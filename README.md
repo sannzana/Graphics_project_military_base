@@ -314,9 +314,18 @@ The following external assets are used in the project:
 
 ## Project Demo Video
 
-A demonstration video of the interactive 3D military base camp is available below:
 
-[Watch the Project Demo Video on Google Drive](https://drive.google.com/drive/folders/1azzqziOwQQgxTCLuUkf7XGMTd7Ll0hzo?usp=sharing)
+## Project Demo Video
+
+Watch the complete demonstration of the interactive 3D military base camp:
+
+🎥 [Full Project Overview](https://www.youtube.com/watch?v=LRX26-Rapz0)  
+*Watch the complete interactive 3D military base camp demo, including camera movement, vehicles, campfire animation, doors, radar, and day/night lighting.*
+
+🎥 [Vehicle Obstacle Detection](https://www.youtube.com/watch?v=ra7y5r2J5SM)  
+*Demonstration of vehicle obstacle detection using bounding boxes to prevent collisions with buildings, walls, and other objects.*
+
+Backup link: [View the video on Google Drive](https://drive.google.com/drive/folders/1azzqziOwQQgxTCLuUkf7XGMTd7Ll0hzo?usp=sharing)
 
 
 ## Repository
