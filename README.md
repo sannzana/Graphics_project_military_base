@@ -191,61 +191,115 @@ Textures are applied across the scene to improve the appearance of surfaces such
 The project also supports changing selected rendering modes during runtime.
 ## Project Figures
 
-### Barracks and Campfire
-![Two barracks and campfire](asset/b.png)
-*Figure 1: Two barracks with the animated campfire placed between them.*
+### Base Camp Overview
 
-![Inside barrack with double bed](asset/b22.png)
-*Figure 2: Interior view of the barrack showing a double bed.*
+<p align="center">
+  <img src="asset/bird.png" alt="Bird's-eye view of the military base camp" width="500">
+  <br>
+  <em>Figure 1: Bird's-eye view showing the overall layout of the military base camp.</em>
+</p>
+
+### Barracks and Campfire
+
+<p align="center">
+  <img src="asset/b.png" alt="Two barracks with an animated campfire" width="450">
+  <br>
+  <em>Figure 2: Two wooden barracks with the animated campfire placed between them.</em>
+</p>
+
+<p align="center">
+  <img src="asset/b22.png" alt="Interior of the military barrack" width="450">
+  <br>
+  <em>Figure 3: Interior view of the barrack showing double beds and basic furniture.</em>
+</p>
 
 ### Garages
-![Back of garages](asset/back.png)
-*Figure 3: Rear view of the garages with lighting and open spaces.*
 
-![Front view of garage](asset/f.png)
-*Figure 4: Front view of the garage platforms.*
+<p align="center">
+  <img src="asset/back.png" alt="Rear view of the garages" width="450">
+  <br>
+  <em>Figure 4: Rear view of the garages with lighting at the back.</em>
+</p>
 
-### Military Base
-![Bird's-eye view](asset/bird.png)
-*Figure 5: Bird's-eye view showing the layout of the entire military base.*
+<p align="center">
+  <img src="asset/f.png" alt="Front view of the garages" width="450">
+  <br>
+  <em>Figure 5: Front view of the garage platforms used for vehicle storage.</em>
+</p>
 
-### Medical Center
-![Medical building exterior](asset/build.png)
-*Figure 6: Exterior view of the military medical center.*
+<p align="center">
+  <img src="asset/bs.png" alt="Garage slope and ramp" width="450">
+  <br>
+  <em>Figure 6: Garage slope allowing vehicles to move smoothly between the ground and raised platform.</em>
+</p>
 
-![Medical building interior](asset/in.png)
-*Figure 7: Interior of the medical center showing beds and tables.*
+### Military Medical Center
 
-### Main Gate
-![Front main gate](asset/dd.png)
-*Figure 8: Front view of the main entrance gate of the military base.*
+<p align="center">
+  <img src="asset/build.png" alt="Exterior of the military medical center" width="450">
+  <br>
+  <em>Figure 7: Exterior view of the military medical center.</em>
+</p>
 
-### Vehicles
-![Jeep with open door](asset/jeep.png)
-*Figure 9: Military jeep with doors open and interior visible.*
+<p align="center">
+  <img src="asset/in.png" alt="Interior of the military medical center" width="450">
+  <br>
+  <em>Figure 8: Interior of the medical center showing beds, tables, and first-aid equipment.</em>
+</p>
 
-![Jeep spotlight](asset/spot.png)
-*Figure 10: Jeep with headlights on, showing spotlight effect.*
+### Boundary and Main Gate
 
-![Tank](asset/t.png)
-*Figure 11: Model-based military tank placed on the central road.*
+<p align="center">
+  <img src="asset/dd.png" alt="Main entrance gate of the military base" width="500">
+  <br>
+  <em>Figure 9: Front view of the main entrance gate and surrounding boundary walls.</em>
+</p>
 
-![Truck](asset/truck.png)
-*Figure 12: Six-wheel military truck with covered cargo area.*
+### Military Vehicles
 
-### Watch Tower and Tent
-![Watch tower](asset/wt.png)
-*Figure 13: Elevated military watch tower with stairs and platform.*
+<p align="center">
+  <img src="asset/jeep.png" alt="Military jeep with open door" width="400">
+  <br>
+  <em>Figure 10: Military jeep with an open door and visible exterior details.</em>
+</p>
 
-![Tent](asset/tt.png)
-*Figure 14: Model-based military tent inside the base camp.*
+<p align="center">
+  <img src="asset/bj.png" alt="Rear view of the military jeep" width="400">
+  <br>
+  <em>Figure 11: Rear view of the military jeep.</em>
+</p>
 
-### Optional / Extra Views
-![Back of jeep](asset/bj.png)
-*Figure 15: Rear view of the jeep.*
+<p align="center">
+  <img src="asset/spot.png" alt="Military jeep with spotlight effect" width="400">
+  <br>
+  <em>Figure 12: Jeep headlight spotlight illuminating the area in front of the vehicle.</em>
+</p>
 
-![Garage slope](asset/bs.png)
-*Figure 16: Slope/ramp view of the garage platforms.*
+<p align="center">
+  <img src="asset/truck.png" alt="Six-wheel military truck" width="450">
+  <br>
+  <em>Figure 13: Six-wheel military truck with a driver cabin and covered cargo area.</em>
+</p>
+
+<p align="center">
+  <img src="asset/t.png" alt="Model-based military tank" width="450">
+  <br>
+  <em>Figure 14: Imported military tank model positioned on the central road.</em>
+</p>
+
+### Surveillance and Camp Structures
+
+<p align="center">
+  <img src="asset/wt.png" alt="Military watch tower" width="400">
+  <br>
+  <em>Figure 15: Elevated military watch tower with stairs, support pillars, and a surveillance platform.</em>
+</p>
+
+<p align="center">
+  <img src="asset/tt.png" alt="Military tent" width="450">
+  <br>
+  <em>Figure 16: Imported military tent model placed inside the base camp.</em>
+</p>
 ## External 3D Models
 
 The following external assets are used in the project:
