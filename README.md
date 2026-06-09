@@ -71,6 +71,22 @@ A road runs through the central area of the base and provides a movement path fo
 
 The environment also includes a campfire, trees, sunlight, indoor lights, garage lights, barrack tube lights, and radar lighting effects. A model-based military tent is also placed within the camp.
 
+## Fire Animation and Vehicle Obstacles
+
+### Campfire Animation
+
+The campfire is created with wooden logs, a circular pebble boundary, animated flame layers, rising sparks, and a flickering orange point light. Six lower logs are arranged in a radial pattern using a loop, while three additional logs are stacked above them. Fourteen pebbles are also generated in a loop with different positions, sizes, rotations, and stone-like colour variations.
+
+The flame is formed using six layered cubes, ranging from a wide orange base to a narrow yellow-white tip. Each layer continuously sways sideways, moves slightly upward and downward, and changes size using sine-based animation. A separate loop generates five small ember sparks that repeatedly rise from the fire and gradually fade. Blending is enabled while drawing the flames to create a softer fire effect. The nearby point light also changes intensity over time, producing a realistic flickering glow.
+
+### Vehicle Obstacle Detection
+
+Vehicle obstacles are handled using 2D axis-aligned bounding boxes. Rectangular collision areas are defined for the jeeps, truck, garages, barracks, medical building, boundary walls, watch towers, tank, radar station, campfire, trees, and tent.
+
+Before moving a vehicle, the program calculates its next position and checks whether its bounding box intersects with any obstacle box. The vehicle moves only when no intersection is detected. The road remains open for driving, and the garage platforms include ramp-height calculations so vehicles can move smoothly between the ground and raised platforms. Jeep-to-jeep collision is enabled, while collision between the truck and jeeps is currently disabled.
+
+
+
 ## Controls
 
 ### Camera Movement
